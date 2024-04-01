@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .user-info-container {
+            margin-bottom: 20px;
+        }
+
+        #user-info {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid black;
+
+        }
+
+        .button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 90%;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .user-posts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .user-post {
+            width: calc(20% - 20px);
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        .user-post h3 {
+            margin-top: 0;
+        }
+
+        .user-post p {
+            margin: 0;
+        }
+
+        .user-post button {
+            margin-top: 10px;
+        }
+
+        .user-posts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        .user-post {
+            width: calc(15% - 15px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid black;
+        }
+
+        .user-post h3 {
+            margin-top: 0;
+        }
+
+        .user-post p {
+            margin: 0;
+        }
+
+        .user-post button {
+            background-color: #007bff;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .user-posts-container::after {
+            content: "";
+            flex-grow: 99999;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <script src="user-details.js"></script>
+</body>
+
+</html>
